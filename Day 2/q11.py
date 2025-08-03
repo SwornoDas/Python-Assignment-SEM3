@@ -1,0 +1,5 @@
+MRP = int(input("Enter MRP of a product: "))
+dis = float(input("Enter discount percentage: "))
+dis = MRP*(dis/100)
+print("Discount amount: ",dis)
+print("Final Price: ",MRP-dis)
